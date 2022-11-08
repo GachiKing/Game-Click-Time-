@@ -1,0 +1,49 @@
+* {
+    margin: 0;
+    padding: 0;
+    border-radius: 0px;
+}
+body {
+    background-color: black;
+    
+}
+.progress__line {
+    background-color: white;
+    bottom: 0;
+    color: #fff;
+    text-align: center;
+    position: absolute;
+    top: 0;
+    left: 0;
+   
+}
+
+.progress__line-bg {
+    background-color: black;
+    border-radius: 5px;
+    border: 4px solid white;
+    height: 20px;
+    overflow: hidden;
+    position: relative;
+    width: 400px;
+    margin-left: 20px;
+}
+.level__see {
+    font-family: "Orbitron", sans-serif;
+    color: white;
+    font-size: 30px;
+    margin-left: 20px;
+}
+.exp__see {
+    margin-top: 30px;
+    font-size: 30px;
+    font-family: "Orbitron", sans-serif;
+    color: #fff;
+    margin-left: 20px;
+}
+.zona {
+    margin: 50px;
+    width: 93%;
+    height: 500px;
+    position: relative;
+}

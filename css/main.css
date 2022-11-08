@@ -1,0 +1,56 @@
+* {
+  margin: 0;
+  padding: 0;
+  border-radius: 0;
+}
+body {
+  height: 100vh;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+
+  background-color: BLACK;
+}
+main {
+  width: 400px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.logo__all {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+
+    font-family: "Orbitron", sans-serif;
+    color: white;
+}
+.logo {
+  font-size: 50px;
+}
+.logo__bottom {
+font-size: 15px;
+}
+.btn__all {   
+  margin-top: 50px;  
+    
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 5px;
+}
+.btn {
+    width: 250px;
+    height: 40px;
+
+    cursor: pointer;
+    background-color: white;
+    font-family: "Orbitron", sans-serif;
+    border-radius: 5px;
+}
